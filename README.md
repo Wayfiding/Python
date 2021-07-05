@@ -14,28 +14,34 @@
 </p>
 
 > On this Project we will find most of Python Web and Software development
+## How to use
 
-### 🏠 [Homepage]( On Test)
+Choose a project and click, you will be redirect to the proper repository folder, there you will find another README explaining how to use the project and test on your Computer.
 
-### ✨ [Demo](On Test)
+### **Prerequisites**
+To be able to use the techonolgies provided there, you need to have a editor and a computer with Linux,Windows or Mac SO. 
 
-## Install
+
+### **Pick just one folder**
+If you want just one folder from this repository you can just click on the folder that you want or in Table of Content and there you gonna find a Readme explaining how to download just that folder. 
+
+Or just follow this steps :
+
+1. Click on the folder;
+2. Copy the url from your browser;
+3. Replace the 'tree/main' or 'tree/master' with trunk;
+
+Example: 
+> https://github.com/User/somerepo/tree/main/folderyouwant
+ 
+> https://github.com/User/somerepo/trunk/folderyouwant 
+
+4.Go to the command Line and just grab the folder with SVN
 
 ```sh
-On Test
+    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
 
-## Usage
-
-```sh
-On test
-```
-
-## Run tests
-
-```sh
-On Test
-```
 
 ## Author
 
