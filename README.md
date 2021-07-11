@@ -1,8 +1,9 @@
 <h1 align="center">Welcome to Python Projects and Portfolio 👋</h1>
 
 ![home](./resources/Logo.jpg)
-
-<p align="center">
+<div class="info-bar" >
+<div >
+<p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0: Base Launch-blue.svg?cacheSeconds=2592000" />
   <a href="On Test" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -12,7 +13,23 @@
   </a>
   
 </p>
+</div>
 
+<div>
+Languages:
+
+[Portuguese :brazil:](README-ptbr.md)
+
+</div>
+</div>
+<style>
+.info-bar {
+  display:flex;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-between;
+}
+</style>  
 > On this Project we will find most of Python Web and Software development
 ## How to use
 
