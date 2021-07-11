@@ -1,10 +1,7 @@
 <h1 align="center">Welcome to Python Projects and Portfolio 👋</h1>
 
 ![home](./resources/Logo.jpg)
-<div style="  display:flex;
-  align-items: center;
-  align-content: space-evenly;
-  justify-content: space-between" >
+<div style="display:flex" >
 <div >
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0: Base Launch-blue.svg?cacheSeconds=2592000" />
