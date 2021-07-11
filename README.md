@@ -22,14 +22,7 @@ Languages:
 
 </div>
 </div>
-<style>
-.info-bar {
-  display:flex;
-  align-items: center;
-  align-content: space-evenly;
-  justify-content: space-between;
-}
-</style>  
+
 
 
 > On this Project we will find most of Python Web and Software development
@@ -85,3 +78,16 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 ***
 This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
 
+
+
+
+
+
+<style>
+.info-bar {
+  display:flex;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-between;
+}
+</style>  
