@@ -55,6 +55,19 @@ Example:
 ```
 
 
+
+## Technologies
+
+On this repository you will find many techonolgies been used.
+- HTML5
+- CSS3
+- JavaScript
+- Python
+- SQLAlchemy
+- Mongo
+- MySql
+- Docker
+
 ## Author
 
 👤 **Alberto Junior**
@@ -73,7 +86,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
 ***
 This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
