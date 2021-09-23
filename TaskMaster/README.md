@@ -19,7 +19,7 @@ Languages:
 </div>
 </div>
 
-> This is simple Task Master built in Flask, all this little applicant was developed following the video on freecodecamp. After that was deployed on Heroku. 
+> This is simple Task Master built in Flask, all this little applicantion was developed following the [video](https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=freeCodeCamp.org) on freecodecamp. After that was deployed on Heroku. 
 
 ## How to use
 
@@ -47,6 +47,47 @@ Example:
     svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
 ```
 
+## How to Run
+1. Install > virtualenv :
+
+
+```sh
+$ pip install virtualenv
+```
+
+2. Open a terminal in the project root directory and run:
+
+```sh
+$ virtualenv env
+```
+
+3. Then run the command:
+
+```sh
+$ ./env/Scripts/activate
+```
+
+4. Then install the dependencies:
+
+```sh
+$ (env) pip install -r requirements.txt
+```
+
+5. Finally start the web server:
+   
+```sh
+(env) python app.py
+```
+
+The serve will start on Port 5000 by default. You can change this in app.py by changing the following lines to this:
+
+```sh
+if __name__ == "__main__":
+    app.run(debug=True, port=<desired port>)
+
+```
+
+## How to deploy on Heroku
 
 
 ## 🚀 Technologies
