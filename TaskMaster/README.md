@@ -75,7 +75,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## 📝 License
 Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
 
 ***
 This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
