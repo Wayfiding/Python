@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Python Projects and Portfolio 👋</h1>
+<h1 align="center">Bem vindo ao Projeto e Portfólio Python 👋</h1>
 
 ![home](./resources/Logo.jpg)
 <div style="display:flex" >
@@ -16,7 +16,7 @@
 </div>
 
 <div>
-Languages:
+Linguas:
 
 [Portuguese :brazil:](README-ptbr.md)
 
@@ -25,40 +25,44 @@ Languages:
 
 
 
-> On this Project we will find most of Python Web and Software development
-## How to use
+> Neste repositório você irá encontrar a maioria dos desenvolvimentos de Python para Software e Web.
 
-Choose a project and click, you will be redirect to the proper repository folder, there you will find another README explaining how to use the project and test on your Computer.
+## How to use
+Escolha um projeto e clique, você será redirecionado para a pasta do respectivo repositório, lá você irá encontrar outro README explicando como utilizar o projeto e testa-lo em seu computador. 
+
+
 
 ### **Prerequisites**
-To be able to use the techonolgies provided there, you need to have a editor and a computer with Linux,Windows or Mac SO. 
+Para poder utilizar as tecnologias providas aqui, você necessitará de um editor e um computador com Linux, Windows ou Mac.
+
 
 
 ### **Pick just one folder**
-If you want just one folder from this repository you can just click on the folder that you want or in Table of Content and there you gonna find a Readme explaining how to download just that folder. 
+Se você quer somente uma pasta deste repositório, você pode clicar na pasta que quer ou na tabela de conteúdo e lá você irá encontrar um README explicando como baixar somente esta pasta. 
 
-Or just follow this steps :
+Ou siga os seguintes passos:
 
-1. Click on the folder;
-2. Copy the url from your browser;
-3. Replace the 'tree/main' or 'tree/master' with trunk;
+1. Clique na Pasta;
+2. Copie a URL da barra de endereço do seu navegador;
+3. Substitua the 'tree/main' ou 'tree/master' with trunk;
 
-Example: 
-> https://github.com/User/somerepo/tree/main/folderyouwant
- 
-> https://github.com/User/somerepo/trunk/folderyouwant 
+Example:
+> https://github.com/Usuário/NomeDoRepositório/tree/main/PastaEscolhida
 
-4.Go to the command Line and just grab the folder with SVN
+> https://github.com/Usuário/NomeDoRepositório/trunk/PastaEscolhida
+
+4. Vá para Linha de Comando do seu computador e pegue a pasta escolhida usando o comando SVN
 
 ```sh
-    svn checkout https://github.com/User/somerepo/trunk/folderyouwant 
+    svn checkout https://github.com/Usuário/NomeDoRepositório/trunk/PastaEscolhida
 ```
 
 
 
-## Technologies
 
-On this repository you will find many techonolgies been used.
+## Technologies
+Neste repositório vocé irá encontrar as seguintes tecnologias usadas:
+
 - HTML5
 - CSS3
 - JavaScript
@@ -87,7 +91,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 Copyright © 2021 [Alberto Júnior](https://github.com/Wayfiding).<br />
 
-This project is over MIT LICENSE. See the file [LICENSE](./LICENSE) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ***
 This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator) and Alberto
