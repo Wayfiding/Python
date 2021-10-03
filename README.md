@@ -4,7 +4,7 @@
 <div style="display:flex" >
 <div >
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0: Base Launch-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1: Implementing Readme Files and Portuguese Language-blue.svg?cacheSeconds=2592000" />
   <a href="On Test" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
