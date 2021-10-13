@@ -23,7 +23,7 @@ Languages:
 </div>
 
 # About
-> This a Restful API project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=WxGBoY5iNXY&ab_channel=PrettyPrinted). On thi project were made a restful api for authenticating with JSON web token and routes for CRUD on  ToDo task.
+> This a Restful API project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=WxGBoY5iNXY&ab_channel=PrettyPrinted). On this project were made a restful api for authenticating with JSON web token and routes for CRUD on  ToDo task.
 
 ## How to use
 
@@ -94,7 +94,7 @@ This Project was developed using the following technologies:
 
 - Python
 - Flask
-- Insomnia / Postmans
+- Insomnia / Postman
 
 
 
