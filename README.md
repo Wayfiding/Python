@@ -32,8 +32,8 @@ Languages:
 | Projects  |     Links     | 
 |:----------|:-------------:|
 |Task Master | [Task Master](https://github.com/Wayfiding/Python/tree/main/TaskMaster)  |
-|  |       |  
-|  |  |  
+| Authentication Flask API JSON | [Authentication API Flask](https://github.com/Wayfiding/Python/tree/main/Authentication_Flask_API_JSON)       |  
+| Flask Restful API Example |[Flask Restful API](https://github.com/Wayfiding/Python/tree/main/Flask_RESTFul_API_JSON)  |  
 |  |  | 
 |  |  |
 |  |  |  
