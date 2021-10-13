@@ -1,4 +1,7 @@
-<h1 align="center">Welcome to TaskMaster 👋</h1>
+<h1 align="center">Welcome to Flask_RESTFul_API_JSON 👋</h1>
+
+![home](./images/cover.jpg)
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-Adding Readme -blue.svg?cacheSeconds=2592000" />
   <a href="On Test" target="_blank">
@@ -20,7 +23,7 @@ Languages:
 </div>
 
 # About
-> This is simple Task Master built in Flask, all this little applicantion was developed following the [video](https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=freeCodeCamp.org) on freecodecamp. After that was deployed on Heroku. 
+> This a Restful API project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=WxGBoY5iNXY&ab_channel=PrettyPrinted). On thi project were made a restful api for authenticating with JSON web token and routes for CRUD on  ToDo task.
 
 ## How to use
 
@@ -53,19 +56,21 @@ Example:
 
 
 ```sh
-$ pip install virtualenv
+$ sudo apt-get install python3-venv
+$ sudo yum install python3-venv
+$ sudo zypper install python3-venv
 ```
 
 2. Open a terminal in the project root directory and run:
 
 ```sh
-$ virtualenv env
+$ python3 -m venv venv
 ```
 
 3. Then run the command:
 
 ```sh
-$ ./env/Scripts/activate
+$ source venv/bin/activate
 ```
 
 4. Then install the dependencies:
@@ -77,30 +82,21 @@ $ (env) pip install -r requirements.txt
 5. Finally start the web server:
    
 ```sh
-(env) python app.py
+(env) export FLASK_APP=api.py
+(env) flask run
 ```
-
-The serve will start on Port 5000 by default. You can change this in app.py by changing the following lines to this:
-
-```sh
-if __name__ == "__main__":
-    app.run(debug=True, port=<desired port>)
-
-```
-
-## How to deploy on Heroku
 
 
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
 
-- HTML
-- CSS
-- JavaScript
+
 - Python
 - Flask
-- Heroku
+- Insomnia / Postmans
+
+
 
 
 ## Author
