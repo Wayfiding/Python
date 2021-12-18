@@ -66,11 +66,18 @@ $ sudo zypper install python3-venv
 ```sh
 $ python3 -m venv venv
 ```
-
+For Windows User:
+```sh
+python -m venv venv
+```
 3. Then run the command:
 
 ```sh
 $ source venv/bin/activate
+```
+For Windows User:
+```sh
+.\venv\bin\activate
 ```
 
 4. Then install the dependencies:
@@ -85,13 +92,16 @@ from api import db
 db.create_all()
 ```
 
-6. Finally start the web server:
+6. Finally start the back-end server:
    
 ```sh
 (env) export FLASK_APP=api.py
 (env) flask run
 ```
-
+For Windows User:
+```sh
+$env:FLASK_APP='api.py'
+flask run
 
 ## 🚀 Technologies
 This Project was developed using the following technologies:
