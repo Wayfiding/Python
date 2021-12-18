@@ -83,7 +83,7 @@ $ (env) pip install -r requirements.txt
 python
 from api import db
 db.create_all()
-
+```
 
 6. Finally start the web server:
    
