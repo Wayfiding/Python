@@ -78,8 +78,14 @@ $ source venv/bin/activate
 ```sh
 $ (env) pip install -r requirements.txt
 ```
+5. Populate the DB: 
+```sh
+python
+from api import db
+db.create_all()
 
-5. Finally start the web server:
+
+6. Finally start the web server:
    
 ```sh
 (env) export FLASK_APP=api.py
