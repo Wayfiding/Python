@@ -102,7 +102,7 @@ For Windows User:
 ```sh
 $env:FLASK_APP='api.py'
 flask run
-
+```
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
