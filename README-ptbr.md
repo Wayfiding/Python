@@ -24,11 +24,11 @@ Línguas:
 </div>
 
 
-# About
+# Sobre
 > Neste repositório você irá encontrar a maioria dos desenvolvimentos de Python para Software e Web.
 
 
-# Table of Contents
+# Tabela de Conteúdos
 
 | Projetos  |     Links     | 
 |:----------|:-------------:|

@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, make_response
+from flask.wrappers import Request
 
 from flask_sqlalchemy import SQLAlchemy
 import uuid
@@ -7,12 +8,19 @@ from sqlalchemy.sql.elements import True_
 from werkzeug.security import generate_password_hash, check_password_hash
 import jwt
 import datetime
+import logging
 from functools import wraps
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'thisisthesecretkey'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123456@127.0.0.1/db'
+
+
+logHandler= logging.FileHandler('./logs/app.log')
+logHandler.setLevel(logging.INFO)
+app.logger.addHandler(logHandler)
+app.logger.setLevel(logging.INFO)
 
 
 
@@ -146,18 +154,27 @@ def delete_user(current_user,public_id):
 @app.route('/login')
 def login():
     auth = request.authorization
+    # Under devolpment
+    time= str(datetime.datetime.utcnow())
+    test = (time , request.method, request.headers)
+    app.logger.info(test)
 
     if not auth or not auth.username or not auth.password:
-        return make_response('Could not verify', 401, {'WWW-Authenticate':'Basic realm="Login required"'})
-
+        response = make_response('Could not verify', 401, {'WWW-Authenticate':'Basic realm="Login required"'})
+        responselog = (time,response.response,  response.status_code,(response.headers))
+        app.logger.info(responselog)
+        return response
     user = User.query.filter_by(name=auth.username).first()
     if not user:
+        
         return make_response('Could not verify', 401, {'WWW-Authenticate':'Basic realm="Login required"'})
     
     if check_password_hash(user.password, auth.password):
         token = jwt.encode({'public_id' : user.public_id, 'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=30) }, app.config['SECRET_KEY'])
-
+        
+        
         return jsonify({'token': token})
+    
 
 
 

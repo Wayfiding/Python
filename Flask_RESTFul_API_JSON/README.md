@@ -25,9 +25,6 @@ Languages:
 # About
 > This a Restful API project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=WxGBoY5iNXY&ab_channel=PrettyPrinted). On this project were made a restful api for authenticating with JSON web token and routes for CRUD on  ToDo task.
 
-## How to use
-
-Choose a project and click, you will be redirect to the proper repository folder, there you will find another README explaining how to use the project and test on your Computer.
 
 ### **Prerequisites**
 To be able to use the techonolgies provided there, you need to have a editor and a computer with Linux,Windows or Mac SO. 
@@ -52,7 +49,10 @@ Example:
 ```
 
 ## How to Run
-1. Install > virtualenv :
+
+ - For Windows User will be flagged what to do in each steps.
+ - Windows use need to install at least the Python 3.8 Version, this can be done accesing the [Python](https://www.python.org/) website.
+1. Install > virtualenv : (Linux)
 
 
 ```sh
@@ -66,7 +66,7 @@ $ sudo zypper install python3-venv
 ```sh
 $ python3 -m venv venv
 ```
-For Windows User:
+For (Windows User):
 ```sh
 python -m venv venv
 ```
@@ -75,7 +75,7 @@ python -m venv venv
 ```sh
 $ source venv/bin/activate
 ```
-For Windows User:
+For (Windows User):
 ```sh
 .\venv\bin\activate
 ```
@@ -98,17 +98,36 @@ db.create_all()
 (env) export FLASK_APP=api.py
 (env) flask run
 ```
-For Windows User:
+For (Windows User):
 ```sh
 $env:FLASK_APP='api.py'
 flask run
 ```
+
+---- Windows User ----
+
+If the Python Flask aren't working because of Windows Policy, you should allow this using the following command: 
+```ps1
+Set-ExecutionPolicy RemoteSigned
+```
+or
+
+```ps1
+Set-ExecutionPolicy Unrestricted
+```
+And to check the Execution Policy 
+
+```ps1
+Get-ExecutionPolicy
+```
+
+More details you can find on [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) website
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
 
 
-- Python
+- Python 3.8
 - Flask
 - Insomnia / Postman
 
