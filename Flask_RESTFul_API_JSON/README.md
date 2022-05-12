@@ -51,7 +51,7 @@ Example:
 ## How to Run
 
  - For Windows User will be flagged what to do in each steps.
- - Windows use need to install at least the Python 3.8 Version, this can be done accesing the [Python](https://www.python.org/) website.
+ - Windows User need to install at least the Python 3.8 Version, this can be done accesing the [Python](https://www.python.org/) website.
 1. Install > virtualenv : (Linux)
 
 
