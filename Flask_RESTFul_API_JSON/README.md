@@ -52,6 +52,7 @@ Example:
 
  - For Windows User will be flagged what to do in each steps.
  - Windows User need to install at least the Python 3.8 Version, this can be done accesing the [Python](https://www.python.org/) website.
+ - Most Command for Windows User is for PowerShell.
 1. Install > virtualenv : (Linux)
 
 
@@ -106,7 +107,7 @@ flask run
 
 ---- Windows User ----
 
-If the Python Flask aren't working because of Windows Policy, you should allow this using the following command: 
+If the Python Flask aren't working because of Windows Policy, you should allow this using the following command on PowerShell: 
 ```ps1
 Set-ExecutionPolicy RemoteSigned
 ```
