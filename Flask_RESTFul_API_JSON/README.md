@@ -122,7 +122,7 @@ And to check the Execution Policy
 Get-ExecutionPolicy
 ```
 
-More details you can find on [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) website
+More details you can find on [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) website.
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 

@@ -46,6 +46,10 @@ Example:
 ```
 
 ## How to Run
+- For Windows User will be flagged what to do in each steps.
+ - Windows User need to install at least the Python 3.8 Version, this can be done accesing the [Python](https://www.python.org/) website.
+ - Most Command for Windows User is for PowerShell.
+
 1. Install > virtualenv :
 
 
@@ -60,13 +64,19 @@ $ sudo zypper install python3-venv
 ```sh
 $ python3 -m venv venv
 ```
-
+For (Windows User):
+```sh
+python -m venv venv
+```
 3. Then run the command:
 
 ```sh
 $ source venv/bin/activate
 ```
-
+For (Windows User):
+```sh
+.\venv\bin\activate
+```
 4. Then install the dependencies:
 
 ```sh
@@ -79,14 +89,37 @@ $ (env) pip install -r requirements.txt
 (env) export FLASK_APP=api.py
 (env) flask run
 ```
+For (Windows User):
+```sh
+$env:FLASK_APP='api.py'
+flask run
+```
 
+---- Windows User ----
+
+If the Python Flask aren't working because of Windows Policy, you should allow this using the following command on PowerShell: 
+```ps1
+Set-ExecutionPolicy RemoteSigned
+```
+or
+
+```ps1
+Set-ExecutionPolicy Unrestricted
+```
+And to check the Execution Policy 
+
+```ps1
+Get-ExecutionPolicy
+```
+
+More details you can find on [Microsoft](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) website.
 
 ## 🚀 Technologies
 This Project was developed using the following technologies:
 
 
 
-- Python
+- Python 3.8
 - Flask
 - Insomnia / Postman
 
