@@ -131,6 +131,7 @@ This Project was developed using the following technologies:
 - Python 3.8
 - Flask
 - Insomnia / Postman
+- SQLAlchemy
 
 
 
