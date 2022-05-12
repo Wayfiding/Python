@@ -24,7 +24,7 @@ Languages:
 
 
 # About
-> Thi is API Project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=J5bIPtEbS0Q&ab_channel=PrettyPrinted). On this project were made a API authentication using JSON web Token, showing how to protect routes.
+> This is API Project for Flask, developed by [Pretty Printed](https://prettyprinted.com/), you can see the entire video [there](https://www.youtube.com/watch?v=J5bIPtEbS0Q&ab_channel=PrettyPrinted). On this project were made a API authentication using JSON web Token, showing how to protect routes.
 
 
 ## How to Use
